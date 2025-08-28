@@ -5,11 +5,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { logo } from '../assets';
 
 const navLinks = [
-  { title: "How it works", href: "#how-it-works" },
-  { title: "Services", href: "#services" },
-  { title: "Case Studies", href: "#" },
-  { title: "Pricing", href: "#" },
-  { title: "About Us", href: "#" },
+  { title: "Home", href: "/" },
+  { title: "Find Doctor", href: "/Doctor" },
+  // { title: "Ai Assistent", href: "#" },
+  { title: "Pharmacy", href: "/Pharmacy" },
+  { title: "Plus", href: "/Price" },
 ];
 
 const Navbar = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Articles.css'; // The CSS file remains the same
-import doctorImage from '../assets/Doctor.png'; // Import the doctor's image
+import { doctorImage } from '../../assets'; // Import the doctor's image
 
 const ArticlesPage = () => {
   return (

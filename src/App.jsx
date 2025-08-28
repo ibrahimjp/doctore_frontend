@@ -8,12 +8,10 @@ import HowItWorks from './components/HowItWorks';
 import Services from './components/Services';
 import Faq from './components/Faq';
 import Cta from './components/Cta';
-import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="bg-black relative overflow-x-hidden">
-      <Navbar />
       <main>
         <Hero />
         <Brands />
@@ -22,7 +20,6 @@ function App() {
         <Faq />
         <Cta />
       </main>
-      <Footer />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Availability.css'; // Import the new CSS file
-import doctorImage from '../assets/Doctor.png'; // Import the image
+import { doctorImage } from '../../assets'; // Import the image
 
 const AvailabilityPage = () => {
   return (
