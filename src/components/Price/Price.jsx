@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import './price.css';
+import './Price.css';
 
 const Price = () => {
   const [isYearly, setIsYearly] = useState(false);
